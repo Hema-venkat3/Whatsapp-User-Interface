@@ -59,9 +59,10 @@
     <!-- END OF MENU SECTION -->
 
     <!-- Status section -->
-    <section class=" bg-white">
-        <div class="flex items-center justify-between font-semibold mx-2 my-2">
+    <section class=" bg-white px-5 py-5">
+        <div class="flex items-center justify-between font-semibold">
             <h4 class="">Status</h4>
+            <!-- Dot icon -->
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 16 16">
                 <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
                     <circle cx="8" cy="2.5" r=".75" />
@@ -70,7 +71,7 @@
                 </g>
             </svg>
         </div>
-        <div class="flex my-2 mx-2 space-x-4">
+        <div class="flex space-x-4">
             <div>
                 <img src="https://ui-avatars.com/api/?name=Hema&background=random" alt="Hema" class="rounded-full w-10">
             </div>
@@ -85,26 +86,21 @@
 
     <!-- Channels section -->
     <div class="bg-white flex justify-between px-5">
-        <h4>Channels</h4>
+        <h4 class="font-semibold">Channels</h4>
         <!-- Plus symbol -->
         <div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="text-gray-500">
                 <path fill="currentColor" d="M11 13H5v-2h6V5h2v6h6v2h-6v6h-2v-6Z" />
             </svg></div>
     </div>
     <div class="flex space-x-4 bg-white m-10 items-center">
-        <img src="./img/whatsapp.png" alt="Whatsapp image" width="40" height="40">
+        <img src="./img/whatsapp.png" alt="Whatsapp image" width="35" height="35">
         <p>WhatsApp</p>
     </div>
     <div class="bg-white">
         <div class=" flex">
-            <p><span class="text-gray-100 font-semibold">Next up on Crossing Cultures</span> to London with host Jessica
-                Nabongo in
-                episode 3 of this WhatsApp
-                original series...</p>
-            <img src="data:image/jpeg;base64,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"
-                alt="Indian flag" width="100" height="100" class="">
+            <p>Stay updated on topics that matter to you. Find channels to follow back.</p>
         </div>
-        <span class="text-gray-600 text-xs ">Yesterday</span>
+        <!-- <span class="text-gray-600 text-xs ">Yesterday</span> -->
     </div>
     <hr>
     <!-- End of Channels section -->
@@ -112,12 +108,11 @@
     <!-- Find channels section -->
     <section class="bg-white">
         <div class="flex justify-between p-3">
-            <h4>Find channels</h4>
+            <h4 class="font-semibold">Find channels</h4>
             <span class="text-emerald-800">See all ></span>
         </div>
         <div>
-            <img src="https://pps.whatsapp.net/v/t61.24694-24/377361247_…zWo_yQ0Jzg&oe=6521517A&_nc_sid=000000&_nc_cat=108"
-                alt="">
+            <img src="" alt="">
             <p>AsliMonalisa</p>
             <button class="bg-green-200 text-green-500 rounded">Follow</button>
         </div>
