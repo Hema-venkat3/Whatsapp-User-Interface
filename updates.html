@@ -4,39 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Updates</title>
+    <title>Updates | WhatsApp</title>
+    <link rel="icon" href="./img/whatsapp.png">
     <!-- TAILWIND CSS -->
     <link href="./css/output.css" rel="stylesheet">
 
 </head>
 
-<body class="bg-green-300 align-middle items-center justify-center max-w-sm mx-auto">
+<body class="bg-green-300 align-middle items-center justify-center max-w-sm mx-auto relative cursor-pointer">
     <!-- HEADER SECTION -->
     <section class="flex justify-between items-center px-6 py-4 text-white bg-emerald-700">
         <div class="flex text-white">
             <span class="font-semibold">WhatsApp</span>
+        </div>
+        <div class="flex space-x-6 items-center">
+            <!-- github -->
             <a href="https://github.com/Hema-venkat3/Whatsapp-User-Interface">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16" class="pl-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 16 16"
+                    class="hover:text-green-300">
                     <path fill="currentColor" fill-rule="evenodd"
                         d="M7.976 0A7.977 7.977 0 0 0 0 7.976c0 3.522 2.3 6.507 5.431 7.584c.392.049.538-.196.538-.392v-1.37c-2.201.49-2.69-1.076-2.69-1.076c-.343-.93-.881-1.175-.881-1.175c-.734-.489.048-.489.048-.489c.783.049 1.224.832 1.224.832c.734 1.223 1.859.88 2.3.685c.048-.538.293-.88.489-1.076c-1.762-.196-3.621-.881-3.621-3.964c0-.88.293-1.566.832-2.153c-.05-.147-.343-.978.098-2.055c0 0 .685-.196 2.201.832c.636-.196 1.322-.245 2.007-.245s1.37.098 2.006.245c1.517-1.027 2.202-.832 2.202-.832c.44 1.077.146 1.908.097 2.104a3.16 3.16 0 0 1 .832 2.153c0 3.083-1.86 3.719-3.62 3.915c.293.244.538.733.538 1.467v2.202c0 .196.146.44.538.392A7.984 7.984 0 0 0 16 7.976C15.951 3.572 12.38 0 7.976 0z"
                         clip-rule="evenodd" />
                 </svg>
             </a>
-        </div>
-        <div class="flex space-x-8">
             <!-- CAMERA -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
+                class="hover:text-green-300">
                 <path fill="currentColor"
                     d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Zm16-2V7h-4.05l-1.825-2h-4.25L8.05 7H4v12Zm-8-6Z" />
             </svg>
             <!-- SEARCH -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
+                class="hover:text-green-300">
                 <path fill="currentColor"
                     d="M9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16Zm0-2q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z" />
             </svg>
             <!-- DOTS -->
             <a href="./settings.html"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 16 16">
+                    viewBox="0 0 16 16" class="hover:text-green-300">
                     <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="1.5">
                         <circle cx="8" cy="2.5" r=".75" />
@@ -50,25 +55,29 @@
 
     <!-- MENU SECTION -->
     <section>
-        <ol class="flex items-center justify-between px-3 space-x-4  text-white bg-emerald-700">
-            <li class="ml-3">
+        <ol class="flex items-center justify-between px-3 text-white bg-emerald-700">
+            <li>
                 <a href="./member.html">
-                    <svg xmlns=" http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                    <svg xmlns=" http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
+                        class="text-gray-400 hover:text-green-300">
                         <path fill="currentColor"
                             d="M12 12.75c1.63 0 3.07.39 4.24.9c1.08.48 1.76 1.56 1.76 2.73V18H6v-1.61c0-1.18.68-2.26 1.76-2.73c1.17-.52 2.61-.91 4.24-.91zM4 13c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2zm1.13 1.1c-.37-.06-.74-.1-1.13-.1c-.99 0-1.93.21-2.78.58A2.01 2.01 0 0 0 0 16.43V18h4.5v-1.61c0-.83.23-1.61.63-2.29zM20 13c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2zm4 3.43c0-.81-.48-1.53-1.22-1.85A6.95 6.95 0 0 0 20 14c-.39 0-.76.04-1.13.1c.4.68.63 1.46.63 2.29V18H24v-1.57zM12 6c1.66 0 3 1.34 3 3s-1.34 3-3 3s-3-1.34-3-3s1.34-3 3-3z" />
                     </svg>
                 </a>
             </li>
-            <li class="flex items-center  flex-1 justify-between">
-                <div class="flex items-center ml-5"><a href="./index.html">Chats</a>
-                    <span
-                        class="w-4 h-4 p-0.5 ml-2 flex rounded-full items-center justify-center text-xs bg-white text-emerald-700">8</span>
+            <li class="flex items-center  p-2.5 flex-1 justify-between font-semibold">
+                <div class="flex items-center pl-3 justify-center text-gray-400 hover:text-green-300">
+
+                    <a href="./index.html">Chats</a>
+                    <span class="w-4 h-4 p-0.5 ml-2 flex rounded-full items-center justify-center text-xs bg-gray-400
+                         text-emerald-700">4</span>
                 </div>
                 <a href="./updates.html">
-                    <div class="border-b-4 rounded">updates</div>
+                    <div>Updates</div>
                 </a>
+                <div class="bg-white absolute top-24 left-48 h-1 w-20"></div>
                 <a href="./calls.html">
-                    <div class="mr-8"> Calls</div>
+                    <div class="text-gray-400 hover:text-green-300"> Calls</div>
                 </a>
             </li>
         </ol>
@@ -76,8 +85,8 @@
     <!-- END OF MENU SECTION -->
 
     <!-- Status section -->
-    <section class=" bg-white px-5 py-5">
-        <div class="flex items-center justify-between font-semibold ">
+    <section class=" bg-white">
+        <div class="flex items-center justify-between font-semibold px-5 py-2">
             <h4 class="text-lg">Status</h4>
             <!-- Dot icon -->
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 16 16">
@@ -88,13 +97,25 @@
                 </g>
             </svg>
         </div>
-        <div class="flex space-x-4 items-center py-1">
-            <div>
-                <img src="https://ui-avatars.com/api/?name=Hema&background=random" alt="Hema" class="rounded-full w-11">
+        <div class="flex space-x-4 items-center py-2 px-5 hover:bg-gray-200">
+            <div class="relative">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 32 32"
+                    class="text-gray-400">
+                    <path fill="none"
+                        d="M8.007 24.93A4.996 4.996 0 0 1 13 20h6a4.996 4.996 0 0 1 4.993 4.93a11.94 11.94 0 0 1-15.986 0ZM20.5 12.5A4.5 4.5 0 1 1 16 8a4.5 4.5 0 0 1 4.5 4.5Z" />
+                    <path fill="currentColor"
+                        d="M26.749 24.93A13.99 13.99 0 1 0 2 16a13.899 13.899 0 0 0 3.251 8.93l-.02.017c.07.084.15.156.222.239c.09.103.187.2.28.3c.28.304.568.596.87.87c.092.084.187.162.28.242c.32.276.649.538.99.782c.044.03.084.069.128.1v-.012a13.901 13.901 0 0 0 16 0v.012c.044-.031.083-.07.128-.1c.34-.245.67-.506.99-.782c.093-.08.188-.159.28-.242c.302-.275.59-.566.87-.87c.093-.1.189-.197.28-.3c.071-.083.152-.155.222-.24ZM16 8a4.5 4.5 0 1 1-4.5 4.5A4.5 4.5 0 0 1 16 8ZM8.007 24.93A4.996 4.996 0 0 1 13 20h6a4.996 4.996 0 0 1 4.993 4.93a11.94 11.94 0 0 1-15.986 0Z" />
+                </svg>
+                <!-- plus symbol -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                    class="bg-emerald-700 rounded-full absolute right-1 top-8 text-white">
+                    <path fill="currentColor"
+                        d="M11 13H6q-.425 0-.713-.288T5 12q0-.425.288-.713T6 11h5V6q0-.425.288-.713T12 5q.425 0 .713.288T13 6v5h5q.425 0 .713.288T19 12q0 .425-.288.713T18 13h-5v5q0 .425-.288.713T12 19q-.425 0-.713-.288T11 18v-5Z" />
+                </svg>
             </div>
             <div>
-                <p class="font-semibold text-lg">My status</p>
-                <small class="text-gray-500">Tap to add status update</small>
+                <p class="font-semibold text-semibold mb-0 pb-0">My status</p>
+                <small class="text-gray-500 mt-0 pt-0">Tap to add status update</small>
             </div>
         </div>
 
@@ -102,22 +123,24 @@
     <!-- End of status section -->
 
     <!-- Recent Updates -->
-    <div class="px-5 bg-white">
-        <div class="flex justify-between">
+    <div class=" bg-white">
+        <div class="flex justify-between px-5">
             <span class="text-gray-500 text-sm">Recent updates</span>
             <span class="text-gray-500">^</span>
         </div>
-        <div class="flex py-2 bg-white items-center">
+    </div>
+    <div class=" bg-white">
+        <div class="flex px-5 py-2 space-x-4 bg-white items-center  hover:bg-gray-200">
             <div>
                 <img src="https://ui-avatars.com/api/?name=Vadivelu&background=random" alt="Vadivelu"
                     class="rounded-full border-2 border-emerald-800 p-0.5 w-11">
             </div>
-            <div class="ml-8">
-                <h4 class="font-semibold">Vadivelu</h4>
-                <span class="text-emerald-700 items-center text-xs">13 minutes ago</span>
+            <div class="">
+                <h4 class="font-semibold mb-0 pb-0">Vadivelu</h4>
+                <span class="text-emerald-700 items-center text-xs mt-0 pt-0">13 minutes ago</span>
             </div>
         </div>
-        <div class="flex py-2 bg-white items-center">
+        <div class="flex px-5 py-2 space-x-4 bg-white items-center  hover:bg-gray-200">
             <div>
                 <img src="https://ui-avatars.com/api/?name=Godse&background=random" alt="Godse"
                     class="rounded-full border-2 border-emerald-800 p-0.5 w-11">
@@ -128,28 +151,29 @@
             </div>
         </div>
     </div>
+
     <!-- End of Recent Updates -->
 
     <!-- Viewed Updates -->
-    <div class="px-5 bg-white">
-        <div class="flex justify-between">
+    <div class=" bg-white">
+        <div class="flex justify-between px-5">
             <span class="text-gray-500 text-sm">Viewed updates</span>
             <span class="text-gray-500">^</span>
         </div>
-        <div class="flex py-2 bg-white items-center">
+        <div class="flex px-5 py-2 bg-white space-x-4 items-center  hover:bg-gray-200">
             <div>
                 <img src="https://ui-avatars.com/api/?name=Santhanam&background=random" alt="Santhanam"
-                    class="rounded-full border-2 border-emerald-800 p-0.5 w-11">
+                    class="rounded-full border-emerald-800 p-0.5 w-11">
             </div>
             <div class="ml-8">
                 <h4 class="font-semibold">Santhanam</h4>
                 <span class="text-emerald-700 items-center text-xs">1 hour ago</span>
             </div>
         </div>
-        <div class="flex py-2 bg-white items-center">
+        <div class="flex px-5 py-2 bg-white space-x-4 items-center  hover:bg-gray-200">
             <div>
                 <img src="https://ui-avatars.com/api/?name=chinraasu&background=random" alt="chinraasu"
-                    class="rounded-full border-2 border-emerald-800 p-0.5 w-11">
+                    class="rounded-full border-emerald-800 p-0.5 w-11">
             </div>
             <div class="ml-8">
                 <h4 class="font-semibold">chinraasu</h4>
@@ -160,7 +184,7 @@
     <!-- End of viewed Updates -->
 
     <!-- Channels section -->
-    <div class="bg-white flex justify-between p-5">
+    <div class="bg-white flex justify-between p-1 px-5">
         <h4 class="font-semibold text-lg">Channels</h4>
         <!-- Plus symbol -->
         <div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="text-gray-500">
@@ -177,39 +201,43 @@
         </div>
         <!-- <span class="text-gray-600 text-xs ">Yesterday</span> -->
     </div>
-    <hr>
     <!-- End of Channels section -->
 
     <!-- Find channels section -->
-    <section class="bg-white px-5">
-        <div class=" flex space-x-2">
-            <div class="border-2 rounded p-3 py-2">
-                <img src="./img/c-1.png" alt=" Mark Zurgkerb" width="60" height="60">
-                <p class="items-center">Mark Zuckerberg</p>
-                <button class="bg-green-100 text-green-500 rounded p-1.5">Follow</button>
+    <section class="bg-white px-5 cursor-pointer">
+        <div class=" flex space-x-3 items-center">
+            <div class="border-2 flex flex-col items-center justify-center rounded p-2">
+                <img src="./img/c-1.png" alt=" Mark Zurgkerb" width="60" height="60"
+                    class="transform transition-all hover:scale-125">
+                <p class="text-sm">Mark </p>
+                <button
+                    class="bg-green-100 text-green-500 rounded mt-2 px-5 p-1.5 transform transition-all hover:scale-105 font-semibold">Follow</button>
             </div>
-            <div class="border-2 rounded p-3 py-2">
-                <img src="./img/c-2.jpg" alt=" Katrina Kaif" width="60" height="60">
-                <p class="items-center">Katrina Kaif</p>
-                <button class="bg-green-100 text-green-500 rounded p-1.5">Follow</button>
+            <div class="border-2 rounded p-2 flex flex-col items-center justify-center">
+                <img src="./img/c-2.png" alt=" Katrina Kaif" width="60" height="60"
+                    class="rounded-full transform transition-all hover:scale-125">
+                <p class="text-sm">Katrina Kaif</p>
+                <button
+                    class="bg-green-100 text-green-500 rounded mt-2 px-5 p-1.5  transform transition-all hover:scale-105 font-semibold">Follow</button>
             </div>
-            <!-- <div class="border-2 rounded p-3 py-2">
-                <img src="./img/c-3.png" alt=" Mohanlal" width="60" height="60" class="rounded">
-                <p class="items-center">Mohanlal</p>
-                <button class="bg-green-100 text-green-500 rounded p-1.5">Follow</button>
-            </div> -->
-            <div class="border-2 rounded p-3 py-2">
-                <img src="./img/c-4.png" alt="Vijay Deverkonda" width="60" height="60" class="rounded">
-                <p class="items-center">Vijay Deverkonda</p>
-                <button class="bg-green-100 text-green-500 rounded p-1.5">Follow</button>
+
+            <div class="border-2 rounded p-2 flex flex-col items-center justify-center">
+                <img src="./img/c-4.png" alt="Bill Gates" width="60" height="60"
+                    class="rounded-full transform transition-all hover:scale-125">
+                <p class="text-sm">Bill Gates</p>
+                <button
+                    class="bg-green-100 text-green-500 rounded mt-2 px-5 p-1.5 transform transition-all hover:scale-105 font-semibold ">Follow</button>
             </div>
         </div>
         <div class="flex justify-between">
-            <button class="bg-emerald-800 text-white text-sm p-3 m-2 rounded-full">Find channels</button>
+            <button
+                class="bg-emerald-800 text-white text-sm px-5 p-2 my-3 rounded-full transform transition-all hover:scale-110 font-semibold">Find
+                channels</button>
             <!-- <span class="text-emerald-800">See all ></span> -->
         </div>
     </section>
     <!-- End of find channels section -->
 </body>
+
 
 </html>
